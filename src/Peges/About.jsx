@@ -8,16 +8,16 @@ export default function About() {
     const color = ["sky", "red", "green"];
 
     const picture = [
-        "/one.jpeg",
-        "/2.png",
-        "/3.png",
+        "/react-pertamaku/one.jpeg",
+        "/react-pertamaku/2.png",
+        "/react-pertamaku/3.png",
     ];
 
 
     return (
         <div>
         <h1>About</h1>
-        
+
         <HyperLink to={"/"}>
             <p>Go to Home</p>
         </HyperLink>

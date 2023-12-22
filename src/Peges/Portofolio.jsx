@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PortoCard from "../components/componen/portoCard";
+import PortoCard from "../components/componen/PortoCard";
 
 export default function Portofolio() {
   const [show, setShow] = useState(false);
@@ -8,9 +8,9 @@ export default function Portofolio() {
     
 };
 const portoGambar = [
-    "/rori.jpg",
-    "/Biodata2.png",
-    "/logindata.png",
+    "/react-pertamaku/rori.jpg",
+    "/react-pertamaku/Biodata2.png",
+    "/react-pertamaku/logindata.png",
 ]
   return (
     <div>
@@ -158,7 +158,7 @@ const portoGambar = [
           </div>
           <div className="col-span-12 -order-1 md:order-1 md:col-span-6 p-20 md:p-28">
             <div className="rounded-full border-8 hover:scala overflow-hidden w-fit">
-              <img src="rori (2).jpg" alt="Rori" />
+              <img src="/react-pertamaku/rori (2).jpg" alt="Rori" />
             </div>
           </div>
         </div>
